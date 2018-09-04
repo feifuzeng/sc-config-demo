@@ -7,7 +7,7 @@
     <groupId>com.feifz</groupId>
     <artifactId>sc-config-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>sc-config-demo</name>
     <description>Demo project for Spring Boot</description>
@@ -20,6 +20,7 @@
     </parent>
 
     <modules>
+        <module>eureka-server</module>
         <module>config-server</module>
         <module>config-client</module>
     </modules>
